@@ -1,0 +1,9 @@
+1.Inicio 
+2.se genera una variable con valor 1
+3.se genera una bariable que contenga el resultado
+4.se genera una variable que valla registrando todos los resultados
+5.se procede a compara que mientras la variable resultado sea menor o igual a 100 se ejecuta
+6.		se procede a calcular la variable respuesta + 1
+7.		se guarda en la variable de registro de la siguiente forma registro = registro + 1
+8.se procede a presentar en pantalla
+9.Fin
