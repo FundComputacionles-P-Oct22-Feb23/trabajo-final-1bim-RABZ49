@@ -1,0 +1,10 @@
+1. Inicio
+2. medida, d[0,n]
+3. metros, i[0,n]
+4. metros <-- 1
+5. pulgadas, d[0,n]
+6. pulgadas <-- 0
+7. pies, d[0,n]
+8. pies <-- 0
+9. yardas, d[0,n]
+10.yardas <-- 0
