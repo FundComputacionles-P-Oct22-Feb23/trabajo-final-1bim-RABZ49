@@ -1,0 +1,6 @@
+1.Inicio
+2.se pide que el usuario ingrese los datos 
+3.comparamos que los datos ingresados no sean iguales
+4.si los datos son iguales termnamos el programa imprimiento un tesxto de error en pantalla
+5.si los datos ingresados son diferentes se procede a comparar cual es el mayor y se presenta en pantalla.
+5.Fin

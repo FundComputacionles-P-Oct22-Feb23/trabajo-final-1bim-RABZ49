@@ -1,0 +1,23 @@
+1.Inicio
+2.dato1,d[0-n]
+3.dato2,d[0-n]
+4.dato3,d[0-n]
+5.datoMayor,d[0-n]
+6.<<"ingrese el primer dato:"
+7.>>dato1
+8.<<"ingrese el segundo dato:"
+9.>>dato2
+10.<<"ingrese el tercer dato:"
+11.>>dato3
+12.si dato1 = dato2 and dato1 = dato 3 entonces
+13.		datoMayor<--"error los datos son iguales"
+14.Si dato2 = dato3 entonces
+15.		datoMayor<-- "error los datos son iguales"
+16.si dato1 < dato2 and dato1 < dato3
+17.		datoMayor<-- dato1
+18.si dato2 < dato1 and dato2 < dato3
+19.		datoMayor<-- dato2
+20.si dato3 < dato2 and dato3 < dato1
+21.		datoMayor<-- dato3
+22.<<"El dato mayor es:" + datoMayor
+23.Fin

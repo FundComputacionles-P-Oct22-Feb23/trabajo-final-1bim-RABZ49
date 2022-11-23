@@ -1,0 +1,9 @@
+1.Inicio
+2.ingrese el valor x
+3.ingrese el valor y 
+4.si x es mayor o igual a 0 and Y es mayor o igual a 0 entonces los valores pertenecen al cuadrante 1
+5.si x es menor a 0 and Y es mayor o igual a 0 entonces los valores pertenecen al cuadrante 2
+6.si x es menor a 0 and Y es menor a 0 entonces los valores pertenecen al cuadrante 3
+7.si x es es mayor o igual a 0 and Y es menor a 0 entonces los valores pertenecen al cuadrante 4
+8.presentar a que tipo de cuadrante pertenecen
+9.Fin

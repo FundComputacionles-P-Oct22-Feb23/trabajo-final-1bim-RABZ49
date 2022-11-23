@@ -1,0 +1,11 @@
+1.Inicio
+2.ingresar el número de trajes adquiridos
+3.ingresar el precio de los trajes
+4.se tiene que crear una variable la cual almacene el subtotal
+5.se tiene que crear una variable que almacene el total con el descunto aplicado
+6.si la cantidad de trajes obtenidos es 1 se aplica el 20% de descuento 
+7.si la cantidad de trajes obtenidos es 2 se aplica el 25% de descuento
+8.si la cantidad de trajes obtenidos es 3 se aplica el 40% de descuento
+9.si la cantidad de trajes obtenidos es mas de 3 se aplica el 50% de descuento   
+10.presentamos en pantalla el subtotal y el total con el descuento aplicado
+11.fin
