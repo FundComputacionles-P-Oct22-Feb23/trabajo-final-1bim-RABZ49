@@ -1,0 +1,14 @@
+1. Inicio 
+2. se genera una variable que sea ángulo
+3. se genera una variable que sea mensaje
+4. se genera una variable que sea contador <-- 1
+5. generamos un cliclo repetitivo cuando el contador sea menor a 3
+6. se pide ingresar tamaño del águnlo
+7. contador menor contador mas 1
+8. si el angulo igual a 90°
+8. el mensaje se le sumara el tamaño del angulo 
+9. en el caso contraio si el angulo es mayor a 90° y menor a 180° entonces el angulo seria un otusangulo 
+10.de lo contrario si solo es menor que 90° es un angulo actángulo
+11.se presentara en pantalla el angulo dependiendo si el angulo es igual a 90° sera un angulo recto de lo contrario si es
+mayor a 90 y menor a 180 seria un angulo obtusangulo, de lo contrario si es menor a 90° es un acutángulo.
+12.Fin

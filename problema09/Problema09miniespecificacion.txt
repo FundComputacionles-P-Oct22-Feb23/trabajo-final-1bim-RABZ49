@@ -1,0 +1,40 @@
+1.Inicio
+2.contador, i[0,n]
+3.contador <-- 1
+4.positivos, i[0,n]
+5.positivos <-- 0
+6.terminoPositivo, i[0,n]
+7.terminoPositivo <-- 12
+8.negativos, i[0,n]
+9.negativos <-- 0
+10.terminoNegativo, i[0,n]
+11.terminoNegativo <-- (-11)
+12.mensaje, x(15)[{-n,n}]
+13.mensaje <-- ""
+14.serie, x(15)[{-n,n}, {A-Z}]
+15.serie <-- "S1 = 12−11+24−22+36−33+48−44"
+numero, i[0,n]
+
+16.<< "Cuál es el número de términos que desea imprimir" 
+	" de la serie:\n" + serie + "\n>> "
+17.>> numero
+
+18.Si numero <= 8 entonces
+19.	Mientras contador <= numero entonces
+20.		Si numero == 1 entonces
+21.			mensaje <-- mensaje + terminoPositivo
+22.		De lo contrario
+23.			Si contador MOD 2 == 1 entonces
+25.				positivos <-- positivos + termino_positivo
+26.				mensaje <-- mensaje + "+" + positivos
+27.			De lo contrario
+28.				Si contador % 2 == 0 entonces
+29.					negativos <-- negativos + termino_negativo
+30.					mensaje <-- mensaje + negativos
+31.		      Fin Si
+32.		contador <-- contador + 1
+33.	Fin Mientras
+34.De lo contrario
+35.	<< "Error, el número de términos que escogió no existe."					  
+36.<< mensaje
+37.Fin

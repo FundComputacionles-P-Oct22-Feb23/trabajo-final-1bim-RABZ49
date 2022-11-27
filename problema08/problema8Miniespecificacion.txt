@@ -8,3 +8,13 @@
 8. pies <-- 0
 9. yardas, d[0,n]
 10.yardas <-- 0
+
+11.<< ""\nMetros\tYardas\tPies\tPulgadas\n""
+12.Mientras metros <= medida entonces
+13.	pulgadas <-- (metros * 100)/2.54
+14.	pies <-- (metros * 39.37)/12
+15.	yardas <-- (metros * 3.28)/3
+16.	<< metros + "\t" + yardas + "\t" + pies + "\t" + pulgadas + "\n"
+17.	metros <-- metros + 1
+18.Fin Mientras 
+19.Fin

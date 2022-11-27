@@ -1,0 +1,12 @@
+1. Inicio 
+2. se crea una variable "numeroDatos"
+3. se crea una variable "totalDatos"
+4. se crea una variable "media"
+5. se crea una variable "salida"
+6. se crea una valiable "mensaje"
+7. se genera un clico repetitivo 
+8. se le pide al usuario el numero de datos
+9. se le pide al usuario que si quiere salir del ciclo repetitivo preciones (s)
+10.una vez que el usuario aplaste (s) se terminara el ciclo repetittivo y se 
+   mostrara en pantalla "Los numeros de Datos son: "+" "\n" "+" "La media es:"
+11.Fin
