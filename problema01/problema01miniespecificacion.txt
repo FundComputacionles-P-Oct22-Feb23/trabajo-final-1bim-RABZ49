@@ -7,7 +7,7 @@
 6. >>angulo
 7. Mientras contador < 3 entonces 
 8.       contador < contador + 1
-9.       si angulo == 90 entonces 
+9.       Si angulo == 90 entonces 
 10.       mensaje <-- mensaje  + "El angulo tiene un tamaño de " + angulo + "\t" + "por lo tanto es recto" + "\n"
 
 11.       De lo contrario 
