@@ -9,14 +9,14 @@
 9.>>horasTrabajadas
 10.<<"ingrese el tipo de empleado:"
 11.>>tipodeEmpleado
-12.si tipodeEmpleado = 1 entonces
+12.Si tipodeEmpleado = 1 entonces
 13.		total<-- horasTrabajadas * 1.5
 14.De lo contrario
-15.		si tipodeEmpleado = 2 entonces
+15.		Si tipodeEmpleado = 2 entonces
 16.			total<-- horasTrabajadas * 2
-17.		si tipodeEmpleado = 3 entonces
+17.		Si tipodeEmpleado = 3 entonces
 18.			total<-- horasTrabajadas * 2.5
-19.		si tipodeEmpleado = 4 entonces
+19.		Si tipodeEmpleado = 4 entonces
 20.			total<-- horasTrabajadas * 3
 21.FinSi
 22.<<"El sueldo por pagar es de:" + total
