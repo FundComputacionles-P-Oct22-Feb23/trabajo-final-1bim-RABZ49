@@ -16,6 +16,7 @@
 14.         De lo contrario < 90 entonces 
 15.           Si angulo < 90 entonces 
 16.            acumulador <-- acumulador + "Angulo tiene tamaño de" + angulo + "\t" + "por lo tanto es acutángulo"
-17.Fin Mientras
-18.<<mensaje
+17.          Fin si
+18.Fin Mientras
+19.<<mensaje
 19.Fin 

@@ -1,21 +1,21 @@
-1.Inicio
-2. numeroDatos, d[0,n] <--""
-3. totalDatos, d[0-n] <-- ""
-4. media, d[0-n]
-4. salida, x(500) [{A-Z}, {a-z}, {BS}] <--""
-5. mensaje, x(x) [{A-Z}, {a-z}, {BS}] <--""
+1-Inicio
+2-suma, d [0, n] <-- 0
+3-contador, d [0, n] <-- 0
+4-bandera, l [True, False]
+5-media, d [0, n]
+6-salida, x(1) [A-Z] <-- ""
 
-6. Haga_Hasta 
-7.    << "Ingrese los numeros de datos"
-8.    >> numeroDatos
-9.    << "Ingrese (s) si quiere salir del ciclo"
-10.   >>salida    
-
-11.Fin Haga__Hasta
-12.numeroDatos = numeroDatos + n
-13.media = numeroDatos / totalDatos
-14.mensaje <-- numeroDatos + media 
-15.>> "Los numeros de Datos son: "+" "\n" "+" "La media es:" 
-16.Fin 
-
-
+7-Mientras bandera = True entonces
+8-	Escribir "Ingrese un numero"
+9-	Leer numero
+10-	suma <-- suma + numero
+11-	contador <-- contador + 1
+12-	Escribir "Si no quiere ingresar más, ingrese 'S':"
+13-	Leer salida
+14-	Si salida == "S" entonces
+15-		bandera <-- False
+16-	FinSi
+17-FinMientras
+18-media <-- suma/contador
+19-Escribir "La media es: " + media
+20-Fin
