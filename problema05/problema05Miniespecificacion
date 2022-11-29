@@ -6,14 +6,14 @@
 6.>>valorx
 7.<<"ingrese el dato Y:"
 8.>>valory
-9.si valorx >=0 and valory >=0 entonces
+9.Si valorx >=0 and valory >=0 entonces
 10. 	cuadrante<-- "los valores pertenecen al caudrante 1"
 11.De lo contrario 
-12.		si valorx <=0 and valory >=0 entonces
+12.		Si valorx <=0 and valory >=0 entonces
 13.		cuadrante<-- "los valores pertenecen al cuadrante 2"
-14.		si valorx <0 and valory <0 entonces
+14.		Si valorx <0 and valory <0 entonces
 15.		cuadrante<-- "los valores pertenecen al cuadrante 3"
-16.		si valorx >=0 and valory <0 entonces
+16.		Si valorx >=0 and valory <0 entonces
 17.		cuadrante<-- "los valores pertenecen al cuadrante 4"
 18.FinSi
 19.<<cuadrante
