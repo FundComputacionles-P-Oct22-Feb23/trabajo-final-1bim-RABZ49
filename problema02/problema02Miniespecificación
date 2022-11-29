@@ -3,14 +3,14 @@
 3.precio,d[0-n]
 3.subtotal,d[0-n]
 4.cantidadDescuento,d[0-n]
-5.if cantidad = 1 entonces 
+5.Si cantidad = 1 entonces 
 7.		cantidadDescuento<-- (precio * 20) / 100 - precio * -1
 8.De lo contrario
-9.		if cantidad = 2 entonces 
+9.		Si cantidad = 2 entonces 
 10.				cantidadDescuento<-- (precio * 25) / 100 - precio * -1
-11.		if cantidad = 3 and <3 entonces 
+11.		Si cantidad = 3 and <3 entonces 
 12.				cantidadDescuento<-- (precio * 40) / 100 - precio * -1
-13.		if cantidad >3 entonces 
+13.		Si cantidad >3 entonces 
 14.				cantidadDescuento<-- (precio * 50) / 100 - precio * -1
 15.FinSi
 16.<<"El valor a pagar es:" + subtotal
